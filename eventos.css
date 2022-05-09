@@ -1,0 +1,61 @@
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color:#F0F8FF;
+}
+
+.card {
+    background-color: #fff;
+    width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+  }
+
+  .titulo{
+    font-weight: 900;
+    font-size: 40px;
+     
+  }
+
+  .items{
+      display: inline-flex;
+      flex-direction: row;
+      list-style: none;
+      color: #fff;
+      padding: 10px;
+  }
+
+  .todos{
+      background-color: black;
+      border-radius: 5px;
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  .hoy, 
+  .maniana,
+  .fecha{
+      font-size: 14px;
+      padding-top: 8px;
+      padding-right: 10px;
+      padding-left: 10px;
+      color: #8c8c8c;
+      background-color: transparent;
+      
+  }
+
+  .estado{
+     color:#ec6189;
+  }
+
+  .evento,
+  .evento1,
+  .evento2,
+  .detalle,
+  .detalle1,
+  .detalle2{
+      padding: 10px;
+  }
+  .mas{
+      cursor: pointer;
+      text-decoration: none;
+  }
